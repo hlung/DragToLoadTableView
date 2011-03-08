@@ -1,0 +1,543 @@
+TDragToLoadTableView
+v7
+r0
+t321273779.846265
+cCheck dependencies
+cProcessInfoPlistFile "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/Info.plist" DragToLoadTableView-Info.plist
+cCompileXIB "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/MainWindow.xib"
+cCpResource build/Debug-iphonesimulator/DragToLoadTableView.app/blueArrow.png blueArrow.png
+cCpResource build/Debug-iphonesimulator/DragToLoadTableView.app/blueArrow@2x.png blueArrow@2x.png
+cCompileXIB "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/TestTableDragToLoad.xib"
+cProcessPCH /var/folders/yd/ydPI0w3WHU8O4a5oxKidd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragToLoadTableView_Prefix-axkiuzmkjhgpgqgoxhjjiywzermb/DragToLoadTableView_Prefix.pch.gch DragToLoadTableView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/main.o "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/DragToLoadTableViewAppDelegate.o "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/DragToLoadTableViewAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/DragToLoadTableViewCustom.o "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/DragToLoadTableViewCustom.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/TestTableDragToLoad.o "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/TestTableDragToLoad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/DragToLoadTableView" normal i386
+cGenerateDSYMFile "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app.dSYM" "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/DragToLoadTableView"
+cTouch "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/Classes/DragToLoadTableViewAppDelegate.h
+c000000004D75F89400000000000001F1
+t1299576980
+s497
+i<UIKit/UIKit.h>
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/Classes/DragToLoadTableViewAppDelegate.m
+c000000004D75F8940000000000000AD1
+t1299576980
+s2769
+i"DragToLoadTableViewAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/Classes/DragToLoadTableViewCustom.h
+c000000004D75F9430000000000000AC9
+t1299577155
+s2761
+i<Foundation/Foundation.h>
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/Classes/DragToLoadTableViewCustom.m
+c000000004D76072D0000000000003655
+t1299580717
+s13909
+i"DragToLoadTableViewCustom.h"
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/Classes/TestTableDragToLoad.h
+c000000004D75FAA70000000000000195
+t1299577511
+s405
+i<UIKit/UIKit.h>
+i"DragToLoadTableViewCustom.h"
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/Classes/TestTableDragToLoad.m
+c000000004D7608310000000000000B04
+t1299580977
+s2820
+i"TestTableDragToLoad.h"
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/Classes/TestTableDragToLoad.xib
+c000000004D7602A700000000000051B1
+t1299579559
+s20913
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/DragToLoadTableView_Prefix.pch
+c000000004D75F8940000000000000158
+t1299576980
+s344
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/MainWindow.xib
+c000000004D7602B80000000000006BC2
+t1299579576
+s27586
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/blueArrow.png
+c000000004D3FC9440000000000001193
+t1296025924
+s4499
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/blueArrow@2x.png
+c000000004D3FC9270000000000001601
+t1296025895
+s5633
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app
+t1299580979
+s340
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app.dSYM
+t1299580979
+s102
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/DragToLoadTableView
+t1299580979
+s55708
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/Info.plist
+t1299577134
+s645
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/MainWindow.nib
+t1299579582
+s1546
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/PkgInfo
+t1299577134
+s8
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/TestTableDragToLoad.nib
+t1299579582
+s1278
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/blueArrow.png
+t1299577135
+s4499
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/blueArrow@2x.png
+t1299577135
+s5633
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/DragToLoadTableView.LinkFileList
+c000000004D76015B000000000000030E
+t1299579227
+s782
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/DragToLoadTableViewAppDelegate.o
+t1299577141
+s53308
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/DragToLoadTableViewCustom.o
+t1299580719
+s94168
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/TestTableDragToLoad.o
+t1299580979
+s50480
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/main.o
+t1299577141
+s6372
+
+N/Users/aim7/Documents/Hlung/Github/DragToLoadTableView/main.m
+c000000004D75F894000000000000016F
+t1299576980
+s367
+i<UIKit/UIKit.h>
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/DragToLoadTableViewAppDelegate.h
+c000000004D75F89400000000000001F1
+t1299576980
+s497
+i<UIKit/UIKit.h>
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/DragToLoadTableViewAppDelegate.m
+c000000004D75F8940000000000000AD1
+t1299576980
+s2769
+i"DragToLoadTableViewAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/DragToLoadTableViewCustom.h
+c000000004D75F9430000000000000AC9
+t1299577155
+s2761
+i<Foundation/Foundation.h>
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/DragToLoadTableViewCustom.m
+c000000004D76072D0000000000003655
+t1299580717
+s13909
+i"DragToLoadTableViewCustom.h"
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/RootViewController.h
+c00000000000000000000000000000000
+t2
+s0
+i<UIKit/UIKit.h>
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/RootViewController.m
+c000000004D75F89400000000000010C9
+t1299576980
+s4297
+i"RootViewController.h"
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/TestTableDragToLoad.h
+c000000004D75FAA70000000000000195
+t1299577511
+s405
+i<UIKit/UIKit.h>
+i"DragToLoadTableViewCustom.h"
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/TestTableDragToLoad.m
+c000000004D7608310000000000000B04
+t1299580977
+s2820
+i"TestTableDragToLoad.h"
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/TestTableDragToLoad.xib
+c000000004D7602A700000000000051B1
+t1299579559
+s20913
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/DragToLoadTableView_Prefix.pch
+c000000004D75F8940000000000000158
+t1299576980
+s344
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/MainWindow.xib
+c000000004D7602B80000000000006BC2
+t1299579576
+s27586
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/RootViewController.xib
+c000000004D75F894000000000000445E
+t1299576980
+s17502
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/blueArrow.png
+c000000004D3FC9440000000000001193
+t1296025924
+s4499
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/blueArrow@2x.png
+c000000004D3FC9270000000000001601
+t1296025895
+s5633
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app
+t1299580979
+s340
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app.dSYM
+t1299580979
+s102
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/DragToLoadTableView
+t1299580979
+s55708
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/Info.plist
+t1299577134
+s645
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/MainWindow.nib
+t1299579582
+s1546
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/PkgInfo
+t1299577134
+s8
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/RootViewController.nib
+t1299577134
+s979
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/TestTableDragToLoad.nib
+t1299579582
+s1278
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/blueArrow.png
+t1299577135
+s4499
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/blueArrow@2x.png
+t1299577135
+s5633
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/DragToLoadTableView.LinkFileList
+c000000004D76015B000000000000030E
+t1299579227
+s782
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/DragToLoadTableViewAppDelegate.o
+t1299577141
+s53308
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/DragToLoadTableViewCustom.o
+t1299580719
+s94168
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/RootViewController.o
+t1299577141
+s41228
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/TestTableDragToLoad.o
+t1299580979
+s50480
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/main.o
+t1299577141
+s6372
+
+N/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/main.m
+c000000004D75F894000000000000016F
+t1299576980
+s367
+i<UIKit/UIKit.h>
+
+N/var/folders/yd/ydPI0w3WHU8O4a5oxKidd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragToLoadTableView_Prefix-awroluwbypgnujgzpvikgtgkmzef/DragToLoadTableView_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/yd/ydPI0w3WHU8O4a5oxKidd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragToLoadTableView_Prefix-axkiuzmkjhgpgqgoxhjjiywzermb/DragToLoadTableView_Prefix.pch.gch
+t1299577141
+s15453392
+
+NDragToLoadTableView-Info.plist
+c000000004D75F894000000000000038D
+t1299576980
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321273779#321273779#0(0"0(0#1#0"8695115872#0"0#
+
+CCompileC build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/DragToLoadTableViewAppDelegate.o "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/DragToLoadTableViewAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321269941.198703
+e321269941.370331
+r1
+xCompileC
+xbuild/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/DragToLoadTableViewAppDelegate.o
+x/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/DragToLoadTableViewAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@121"Compile /Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/DragToLoadTableViewAppDelegate.m321269941#321269941#0(0"0(0#0#113"/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/DragToLoadTableViewAppDelegate.m8659015968#2610"    cd "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-generated-files.hmap" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-own-target-headers.hmap" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-all-target-headers.hmap" -iquote "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-project-headers.hmap" "-F/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/include" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DerivedSources/i386" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DerivedSources" -include /var/folders/yd/ydPI0w3WHU8O4a5oxKidd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragToLoadTableView_Prefix-axkiuzmkjhgpgqgoxhjjiywzermb/DragToLoadTableView_Prefix.pch -c "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/DragToLoadTableViewAppDelegate.m" -o "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/DragToLoadTableViewAppDelegate.o"0#
+
+CCompileC build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/DragToLoadTableViewAppDelegate.o /Users/aim7/Documents/Hlung/Github/DragToLoadTableView/Classes/DragToLoadTableViewAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/DragToLoadTableViewCustom.o "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/DragToLoadTableViewCustom.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321273519.485712
+e321273519.754782
+r1
+xCompileC
+xbuild/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/DragToLoadTableViewCustom.o
+x/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/DragToLoadTableViewCustom.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@116"Compile /Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/DragToLoadTableViewCustom.m321273519#321273519#0(0"0(0#0#108"/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/DragToLoadTableViewCustom.m8656075936#2600"    cd "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-generated-files.hmap" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-own-target-headers.hmap" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-all-target-headers.hmap" -iquote "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-project-headers.hmap" "-F/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/include" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DerivedSources/i386" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DerivedSources" -include /var/folders/yd/ydPI0w3WHU8O4a5oxKidd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragToLoadTableView_Prefix-axkiuzmkjhgpgqgoxhjjiywzermb/DragToLoadTableView_Prefix.pch -c "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/DragToLoadTableViewCustom.m" -o "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/DragToLoadTableViewCustom.o"0#
+
+CCompileC build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/DragToLoadTableViewCustom.o /Users/aim7/Documents/Hlung/Github/DragToLoadTableView/Classes/DragToLoadTableViewCustom.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/RootViewController.o "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321269941.368483
+e321269941.454090
+r1
+xCompileC
+xbuild/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/RootViewController.o
+x/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/RootViewController.m321269941#321269941#0(0"0(0#0#101"/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/RootViewController.m8657624992#2586"    cd "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-generated-files.hmap" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-own-target-headers.hmap" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-all-target-headers.hmap" -iquote "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-project-headers.hmap" "-F/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/include" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DerivedSources/i386" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DerivedSources" -include /var/folders/yd/ydPI0w3WHU8O4a5oxKidd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragToLoadTableView_Prefix-axkiuzmkjhgpgqgoxhjjiywzermb/DragToLoadTableView_Prefix.pch -c "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/RootViewController.m" -o "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/RootViewController.o"0#
+
+CCompileC build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/TestTableDragToLoad.o "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/TestTableDragToLoad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321273779.522576
+e321273779.752824
+r1
+xCompileC
+xbuild/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/TestTableDragToLoad.o
+x/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/TestTableDragToLoad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@110"Compile /Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/TestTableDragToLoad.m321273779#321273779#0(0"0(0#0#102"/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/TestTableDragToLoad.m8674303904#2588"    cd "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-generated-files.hmap" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-own-target-headers.hmap" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-all-target-headers.hmap" -iquote "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-project-headers.hmap" "-F/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/include" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DerivedSources/i386" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DerivedSources" -include /var/folders/yd/ydPI0w3WHU8O4a5oxKidd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragToLoadTableView_Prefix-axkiuzmkjhgpgqgoxhjjiywzermb/DragToLoadTableView_Prefix.pch -c "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/TestTableDragToLoad.m" -o "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/TestTableDragToLoad.o"0#
+
+CCompileC build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/TestTableDragToLoad.o /Users/aim7/Documents/Hlung/Github/DragToLoadTableView/Classes/TestTableDragToLoad.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/main.o "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s321269941.180408
+e321269941.368311
+r1
+xCompileC
+xbuild/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/main.o
+x/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/main.m321269941#321269941#0(0"0(0#0#79"/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/main.m8667012576#2550"    cd "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-generated-files.hmap" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-own-target-headers.hmap" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-all-target-headers.hmap" -iquote "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-project-headers.hmap" "-F/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/include" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DerivedSources/i386" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DerivedSources" -include /var/folders/yd/ydPI0w3WHU8O4a5oxKidd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragToLoadTableView_Prefix-axkiuzmkjhgpgqgoxhjjiywzermb/DragToLoadTableView_Prefix.pch -c "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/main.m" -o "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/main.o /Users/aim7/Documents/Hlung/Github/DragToLoadTableView/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/TestTableDragToLoad.xib"
+s321272380.676898
+e321272382.522399
+r1
+xCompileXIB
+x/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/TestTableDragToLoad.xib
+lSLF07#2@42"CompileXIB Classes/TestTableDragToLoad.xib321272380#321272382#0(0"0(0#0#104"/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/TestTableDragToLoad.xib8691614240#716"    cd "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/TestTableDragToLoad.nib" "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/Classes/TestTableDragToLoad.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/MainWindow.xib"
+s321272380.655521
+e321272382.564953
+r1
+xCompileXIB
+x/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib321272380#321272382#0(0"0(0#0#87"/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/MainWindow.xib8696732224#690"    cd "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/MainWindow.nib" "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/RootViewController.xib"
+s321269934.176501
+e321269935.013011
+r1
+xCompileXIB
+x/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib321269934#321269935#0(0"0(0#0#95"/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/RootViewController.xib8659926144#706"    cd "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/RootViewController.nib" "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/RootViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/aim7/Documents/Hlung/Github/DragToLoadTableView/Classes/TestTableDragToLoad.xib
+r0
+
+CCompileXIB /Users/aim7/Documents/Hlung/Github/DragToLoadTableView/MainWindow.xib
+r0
+
+CCpResource build/Debug-iphonesimulator/DragToLoadTableView.app/blueArrow.png blueArrow.png
+s321269935.013133
+e321269935.195525
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DragToLoadTableView.app/blueArrow.png
+xblueArrow.png
+lSLF07#2@18"Copy blueArrow.png321269935#321269935#0(0"0(0#0#86"/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/blueArrow.png8649102560#591"    cd "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/blueArrow.png" "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app"0#
+
+CCpResource build/Debug-iphonesimulator/DragToLoadTableView.app/blueArrow@2x.png blueArrow@2x.png
+s321269935.014110
+e321269935.195661
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DragToLoadTableView.app/blueArrow@2x.png
+xblueArrow@2x.png
+lSLF07#2@21"Copy blueArrow@2x.png321269935#321269935#0(0"0(0#0#89"/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/blueArrow@2x.png8648625024#594"    cd "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/blueArrow@2x.png" "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app"0#
+
+CGenerateDSYMFile "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app.dSYM" "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/DragToLoadTableView"
+s321273779.809265
+e321273779.838719
+r1
+xGenerateDSYMFile
+x/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app.dSYM
+x/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/DragToLoadTableView
+lSLF07#2@145"GenerateDSYMFile build/Debug-iphonesimulator/DragToLoadTableView.app.dSYM build/Debug-iphonesimulator/DragToLoadTableView.app/DragToLoadTableView321273779#321273779#0(0"0(0#0#144"/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/DragToLoadTableView8645230528#527"    cd "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/DragToLoadTableView" -o "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app.dSYM"0#
+
+CGenerateDSYMFile /Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app.dSYM /Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/DragToLoadTableView
+r0
+
+CLd "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/DragToLoadTableView" normal i386
+s321273779.752932
+e321273779.809131
+r1
+xLd
+x/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/DragToLoadTableView
+xnormal
+xi386
+lSLF07#2@149"Link /Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/DragToLoadTableView321273779#321273779#0(0"0(0#0#0"8658140000#1140"    cd "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk "-L/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator" "-F/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator" -filelist "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/Objects-normal/i386/DragToLoadTableView.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/DragToLoadTableView"0#
+
+CLd /Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/DragToLoadTableView normal i386
+r0
+
+CProcessInfoPlistFile "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/Info.plist" DragToLoadTableView-Info.plist
+s321269934.129895
+e321269934.142362
+r1
+xProcessInfoPlistFile
+x/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/Info.plist
+xDragToLoadTableView-Info.plist
+lSLF07#2@38"Process DragToLoadTableView-Info.plist321269934#321269934#0(0"0(0#0#103"/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/DragToLoadTableView-Info.plist7308609285982799872#623"    cd "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DragToLoadTableView-Info.plist -genpkginfo "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/Info.plist"0#
+
+CProcessInfoPlistFile /Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app/Info.plist DragToLoadTableView-Info.plist
+r0
+
+CProcessPCH /var/folders/yd/ydPI0w3WHU8O4a5oxKidd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragToLoadTableView_Prefix-awroluwbypgnujgzpvikgtgkmzef/DragToLoadTableView_Prefix.pch.gch DragToLoadTableView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/yd/ydPI0w3WHU8O4a5oxKidd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragToLoadTableView_Prefix-axkiuzmkjhgpgqgoxhjjiywzermb/DragToLoadTableView_Prefix.pch.gch DragToLoadTableView_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s321269935.884320
+e321269941.180181
+r1
+xProcessPCH
+x/var/folders/yd/ydPI0w3WHU8O4a5oxKidd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragToLoadTableView_Prefix-axkiuzmkjhgpgqgoxhjjiywzermb/DragToLoadTableView_Prefix.pch.gch
+xDragToLoadTableView_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Precompile DragToLoadTableView_Prefix.pch321269935#321269941#0(0"0(0#0#103"/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/DragToLoadTableView_Prefix.pch8655091552#2394"    cd "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-generated-files.hmap" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-own-target-headers.hmap" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-all-target-headers.hmap" -iquote "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DragToLoadTableView-project-headers.hmap" "-F/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/include" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DerivedSources/i386" "-I/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/DragToLoadTableView.build/Debug-iphonesimulator/DragToLoadTableView.build/DerivedSources" -c "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/DragToLoadTableView_Prefix.pch" -o /var/folders/yd/ydPI0w3WHU8O4a5oxKidd++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DragToLoadTableView_Prefix-axkiuzmkjhgpgqgoxhjjiywzermb/DragToLoadTableView_Prefix.pch.gch0#
+
+CTouch "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app"
+s321273779.838821
+e321273779.846220
+r1
+xTouch
+x/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app
+lSLF07#2@130"Touch /Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app321273779#321273779#0(0"0(0#0#0"8697379552#362"    cd "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/aim7/Documents/Hlung/Useful Codes/UI Elements/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app"0#
+
+CTouch /Users/aim7/Documents/Hlung/Github/DragToLoadTableView/build/Debug-iphonesimulator/DragToLoadTableView.app
+r0
+
