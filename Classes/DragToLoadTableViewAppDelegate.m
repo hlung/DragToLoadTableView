@@ -7,7 +7,6 @@
 //
 
 #import "DragToLoadTableViewAppDelegate.h"
-#import "RootViewController.h"
 
 
 @implementation DragToLoadTableViewAppDelegate
