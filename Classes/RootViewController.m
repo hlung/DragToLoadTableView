@@ -1,33 +1,36 @@
-//
-//  TestTableDragRefresh.m
-//  DragToLoadTableViewCustom
-//
-//  Created by Hlung on 26/1/2554.
-//  Copyright 2011 Hlung. All rights reserved.
-//
+/*
+ * This file is part of the DragToLoadTableView package.
+ * (c) Thongchai Kolyutsakul <thongchaikol@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ *
+ * Created on 26/1/2011.
+ */
 
-#import "TestTableDragToLoad.h"
+#import "RootViewController.h"
 
-@implementation TestTableDragToLoad
+@implementation RootViewController
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	tableView.listener = self;
+	tableView.dragDelegate = self;
 	tableView.tableDelegate = self;
 	dataArray = [[NSMutableArray alloc] init];
 	[dataArray addObjectsFromArray:[NSArray arrayWithObjects:@"start",nil]];
-	[tableView enableLoadButtom];
+	[tableView enableLoadBottom];
 }
 
 #pragma mark -
-#pragma mark DragToLoadTableViewListener
+#pragma mark DragToLoadTableViewDelegate
 
+// *** Do load top / load bottom
 -(void)startLoadTop {
 	[self performSelector:@selector(finishedLoadingTop) withObject:nil afterDelay:1];
 }
 
--(void)startLoadButtom {
+-(void)startLoadBottom {
 	[self performSelector:@selector(finishedLoadingBottom) withObject:nil afterDelay:1];
 }
 
