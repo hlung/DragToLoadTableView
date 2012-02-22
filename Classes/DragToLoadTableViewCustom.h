@@ -1,9 +1,9 @@
 //
 //  DragToLoadTableViewCustom.h
-//  Memoli
+//  DragToLoadTableViewCustom
 //
 //  Created by Hlung on 27/1/2554.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Hlung. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -24,14 +24,14 @@ typedef enum {
 	UIActivityIndicatorView *idViewTop;
 	UILabel *labelTop;
 	UILabel *labelDateTop;
-	UIImageView *imageTop;
+	UIImageView *arrowTop;
 	BOOL isArrowOn;
 	
 	UIView *bottomView;
 	UIActivityIndicatorView *idViewBottom;
 	UILabel *labelBottom;
-	UIImageView *imageBottom;
-	
+	UIImageView *arrowBottom;
+    	
 	int offset_old; //preserve old offset when loadingTop for animation
 	int num_buttom_row; //show or hide bottomView in the last table section, normally 0 or 1
 	int kCellHeight, kStatusBarHeight, kTriggerDist, kDateLabelOffset;
@@ -44,8 +44,11 @@ typedef enum {
 @property (nonatomic, retain) UIView *bottomView;
 @property (nonatomic, assign) int num_buttom_row, kCellHeight, kStatusBarHeight, kTriggerDist, kDateLabelOffset;
 -(void)stopAllLoadingAnimation;
+
+// enable or disable pull up to load
 -(void)enableLoadButtom;
 -(void)disableLoadButtom;
+
 -(void)triggerLoadTop;
 -(void)triggerLoadBottom;
 @end

@@ -1,9 +1,8 @@
 //
 //  DragToLoadTableViewCustom.m
-//  Memoli
 //
 //  Created by Hlung on 27/1/2554.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Hlung. All rights reserved.
 //
 
 #import "DragToLoadTableViewCustom.h"
@@ -15,13 +14,15 @@
 -(NSString*)getCurrentDateString;
 @end
 
-#define kLABEL_TOP	 @"Pull down to refresh..."
-#define kRELEASE_TOP @"Release to update..."
-#define kLOADING_TOP @"Updating..."
+// Top labels
+#define kLABEL_TOP	 @"Pull down to clear data..."
+#define kRELEASE_TOP @"Release to clear data..."
+#define kLOADING_TOP @"Clearing data..."
 
-#define kLABEL_BOTTOM   @"Pull up to load more..."
-#define kRELEASE_BOTTOM @"Release to load more..."
-#define kLOADING_BOTTOM @"Updating cached data..."
+// Bottom labels
+#define kLABEL_BOTTOM   @"Pull up to load new data..."
+#define kRELEASE_BOTTOM @"Release to load new data..."
+#define kLOADING_BOTTOM @"Loading new data..."
 
 @implementation DragToLoadTableViewCustom
 
@@ -33,19 +34,19 @@
 		kCellHeight = 60.0f; // height of top and bottom loading views
 		kTriggerDist = 5.0f; // releasing distance before triggering load
 		kStatusBarHeight = 20.0f;
-		kDateLabelOffset = 17.0f;
+		kDateLabelOffset = 10.0f;
 		int arrow_offset = 40.0f;
 
 		state = DragToLoadTableStateIdle;
 		num_buttom_row = 0;
 		
-		// TOP
-		topView = [[UIView alloc] initWithFrame:CGRectMake(0, -kCellHeight, 320, kCellHeight)];
-		topView.backgroundColor = [UIColor grayColor];
+		// --- TOP ---
+		topView = [[UIView alloc] initWithFrame:CGRectMake(0, -kCellHeight, 320, kCellHeight-1)]; // kCellHeight-1 to leave some space for the line
+		topView.backgroundColor = [UIColor whiteColor];
 		
-		labelTop = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, kCellHeight)];
+		labelTop = [[UILabel alloc] initWithFrame:CGRectMake(0, -8, 320, kCellHeight)];
 		labelTop.textAlignment = UITextAlignmentCenter;
-		labelTop.backgroundColor = [UIColor whiteColor];
+		labelTop.backgroundColor = [UIColor clearColor];
 		labelTop.text = kLABEL_TOP;
 		[topView addSubview:labelTop];
 		[labelTop release];
@@ -69,26 +70,26 @@
 		int arrow_W = arrow.size.width*0.7;
 		int arrow_H = arrow.size.height*0.7;
 		
-		imageTop = [[UIImageView alloc] initWithFrame:
+		arrowTop = [[UIImageView alloc] initWithFrame:
 					CGRectMake(idViewTop.center.x-arrow_W/2, idViewTop.center.y-arrow_H/2, 
 							   arrow_W, arrow_H)];
-		imageTop.image = arrow;
-		imageTop.transform = CGAffineTransformMakeRotation(M_PI);
-		[topView addSubview:imageTop];
-		[imageTop release];
-		imageTop.alpha = 1;
+		arrowTop.image = arrow;
+		arrowTop.transform = CGAffineTransformMakeRotation(M_PI);
+		[topView addSubview:arrowTop];
+		[arrowTop release];
+		arrowTop.alpha = 1;
 		
 		[self addSubview:topView];
 		[topView release];
 		
 		
-		// BOTTOM
+		// --- BOTTOM ---
 		bottomView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, kCellHeight)];
-		bottomView.backgroundColor = [UIColor grayColor];
+		bottomView.backgroundColor = [UIColor whiteColor];
 		
 		labelBottom = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, kCellHeight)];
 		labelBottom.textAlignment = UITextAlignmentCenter;
-		labelBottom.backgroundColor = [UIColor whiteColor];
+		labelBottom.backgroundColor = [UIColor clearColor];
 		labelBottom.text = kLABEL_BOTTOM;
 		[bottomView addSubview:labelBottom];
 		[labelBottom release];
@@ -99,13 +100,13 @@
 		[bottomView addSubview:idViewBottom];
 		[idViewBottom release];
 		
-		imageBottom = [[UIImageView alloc] initWithFrame:
+		arrowBottom = [[UIImageView alloc] initWithFrame:
 					CGRectMake(idViewBottom.center.x-arrow_W/2, idViewBottom.center.y-arrow_H/2, 
 							   arrow_W, arrow_H)];
-		imageBottom.image = arrow;
-		[bottomView addSubview:imageBottom];
-		[imageBottom release];
-		imageBottom.alpha = 1;
+		arrowBottom.image = arrow;
+		[bottomView addSubview:arrowBottom];
+		[arrowBottom release];
+		arrowBottom.alpha = 1;
 		//**later release bottomView in dealloc, unlike topView**
 		
 		self.delegate = self;
@@ -128,7 +129,7 @@
 	if (self.contentOffset.y <= 0)  {
 		[self performSelector:@selector(setTableViewNormal) withObject:nil afterDelay:0];
 	}
-	imageTop.alpha = imageBottom.alpha = 1;
+	arrowTop.alpha = arrowBottom.alpha = 1;
 	state = DragToLoadTableStateIdle;
 }
 
@@ -279,6 +280,22 @@
 #pragma mark -
 #pragma mark scrollView delegates
 
+-(UIImage*)getImageFromView:(UIView*)view {
+	UIGraphicsBeginImageContext(view.bounds.size);
+    
+	CGContextRef ctx = UIGraphicsGetCurrentContext();
+    CGContextSetBlendMode(ctx, kCGBlendModeNormal); // assign a different blend mode here
+	[self.layer renderInContext:ctx];
+    
+    // draw divider
+    //CGContextTranslateCTM(ctx, divider.frame.origin.x, divider.frame.origin.y - 44);
+    //[divider.layer renderInContext:ctx];
+    
+	UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+	UIGraphicsEndImageContext();
+	return image;
+}
+
 //- (void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView {
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
 	
@@ -293,8 +310,8 @@
 			scrollView.bounces = NO; // disable off edge auto scroll, *xx* flash to top bug *xx*
 			scrollView.scrollEnabled = NO;
 			scrollView.showsVerticalScrollIndicator = NO;
-			scrollView.alpha = 0; // *oo* hide flash top bug *oo* 
-			
+			//scrollView.alpha = 0; // *** hide flash top bug *** 
+
 			[self performSelector:@selector(setTableViewRefresh) withObject:nil afterDelay:0];
 		}
 		// scroll below bottom
@@ -306,14 +323,15 @@
 	}
 }
 
+
 -(void)triggerLoadTop {
 	[self stopAllLoadingAnimation];
 	state = DragToLoadTableStateLoadingTop;
 	
 	[UIView beginAnimations:nil context:nil]; // arrow spin back and fade out
 	[UIView setAnimationDuration:0.3f];
-	imageTop.alpha = 0;
-	imageTop.transform = CGAffineTransformMakeRotation(M_PI);
+	arrowTop.alpha = 0;
+	arrowTop.transform = CGAffineTransformMakeRotation(M_PI);
 	[UIView commitAnimations];
 	
 	[idViewTop startAnimating];
@@ -327,7 +345,13 @@
 -(void)triggerLoadBottom {
 	[self stopAllLoadingAnimation];
 	state = DragToLoadTableStateLoadingBottom;
-	imageBottom.alpha = 0;
+    
+	[UIView beginAnimations:nil context:nil]; // arrow spin back and fade out
+	[UIView setAnimationDuration:0.3f];
+	arrowBottom.alpha = 0;
+	arrowBottom.transform = CGAffineTransformMakeRotation(0);
+	[UIView commitAnimations];
+    
 	[idViewBottom startAnimating];
 	labelBottom.text = kLOADING_BOTTOM;
 	if ([listener respondsToSelector:@selector(startLoadButtom) ]){
@@ -343,28 +367,28 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
 	if (!scrollView.isDecelerating && state == DragToLoadTableStateIdle) { // have to be dragging
-		if (imageTop.alpha){
+		if (arrowTop.alpha){
 			[UIView beginAnimations:nil context:nil];
 			[UIView setAnimationDuration:0.3f];
 			if (scrollView.contentOffset.y <= -kCellHeight-kTriggerDist) {
-				imageTop.transform = CGAffineTransformIdentity;
+				arrowTop.transform = CGAffineTransformIdentity;
 				labelTop.text = kRELEASE_TOP;
 			}
 			else {
-				imageTop.transform = CGAffineTransformMakeRotation(M_PI);
+				arrowTop.transform = CGAffineTransformMakeRotation(M_PI);
 				labelTop.text = kLABEL_TOP;
 			}
 			[UIView commitAnimations];
 		}
-		if (imageBottom.alpha){
+		if (arrowBottom.alpha){
 			[UIView beginAnimations:nil context:nil];
 			[UIView setAnimationDuration:0.3f];
 			if (scrollView.contentOffset.y >= kTriggerDist+[self calcBottomOffset:scrollView]) {
-				imageBottom.transform = CGAffineTransformMakeRotation(M_PI);
+				arrowBottom.transform = CGAffineTransformMakeRotation(M_PI);
 				labelBottom.text = kRELEASE_BOTTOM;
 			}
 			else {
-				imageBottom.transform = CGAffineTransformIdentity;
+				arrowBottom.transform = CGAffineTransformIdentity;
 				labelBottom.text = kLABEL_BOTTOM;
 			}
 			[UIView commitAnimations];
@@ -391,7 +415,7 @@
 -(void)enableBounce { self.bounces = YES; }
 
 -(void)setTableViewRefresh {
-	self.alpha = 1;
+	//self.alpha = 1; // *** hide flash top bug *** 
 	[self setContentOffset:CGPointMake(0, offset_old) animated:NO];
 	[self setContentOffset:CGPointMake(0, -kCellHeight) animated:YES];
 }
@@ -400,6 +424,13 @@
 	if (state == DragToLoadTableStateLoadingTop) [self setContentOffset:CGPointMake(0, -kCellHeight) animated:NO];
 	[self setContentOffset:CGPointMake(0, 0) animated:YES];
 	state = DragToLoadTableStateIdle;
+}
+
+// override reloadData to avoid immediate contentOffset change from original reloadData
+- (void)reloadData {
+    CGPoint oldPt = self.contentOffset;
+    [super reloadData];
+    [self setContentOffset:oldPt animated:NO];
 }
 
 

@@ -3,7 +3,7 @@
 //  DragToLoadTableView
 //
 //  Created by Hlung on 8/3/2554.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Hlung. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
