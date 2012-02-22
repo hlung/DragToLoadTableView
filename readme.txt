@@ -1,6 +1,7 @@
-----------------------------------------------------
-DragToLoadTableViewCustom - by Thongchai Kolyutsakul
-----------------------------------------------------
+DragToLoadTableView - by Thongchai Kolyutsakul
+
+Version History
+-------------
 v1.0 (Tue8/3/2011)
 Utilize UIScrollView delegate inside UITableView to trigger loading new information. Actually, this is more like a mock up of the Facebook app's feed tableView.
 -------------
