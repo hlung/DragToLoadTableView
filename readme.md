@@ -1,4 +1,4 @@
-DragToLoadTableView - by Thongchai Kolyutsakul
+DragToLoadTableView
 
 OTA Install
 <!-- MacBuildServer Install Button -->
@@ -7,15 +7,16 @@ OTA Install
 </div>
 <!-- MacBuildServer Install Button -->
 
-Version History
--------------
-v1.0 (Tue8/3/2011)
+__Version History__
+
+_v1.0 (Tue8/3/2011)_
 Utilize UIScrollView delegate inside UITableView to trigger loading new information. Actually, this is more like a mock up of the Facebook app's feed tableView.
--------------
-v1.01 (Wed22/2/2012)
+
+_v1.01 (Wed22/2/2012)_
+
 Fix missing RootViewController file
 Add LICENSE, #.gitignore#
 Remove build folder
 Update project from iPhone only to Universal
 Code Refactoring
--------------
+
