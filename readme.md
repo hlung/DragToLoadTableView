@@ -10,6 +10,7 @@ OTA Install
 __Version History__
 
 _v1.0 (Tue8/3/2011)_
+
 Utilize UIScrollView delegate inside UITableView to trigger loading new information. Actually, this is more like a mock up of the Facebook app's feed tableView.
 
 _v1.01 (Wed22/2/2012)_
